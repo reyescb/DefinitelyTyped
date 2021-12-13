@@ -79,6 +79,6 @@ declare module 'mongoose' {
 import mongoose = require('mongoose');
 declare function mongooseAggregatePaginate(schema: mongoose.Schema): void;
 export = mongooseAggregatePaginate;
-declare namespace _ {
+declare namespace mongooseAggregatePaginate {
     const aggregatePaginate: { options: mongoose.PaginateOptions };
 }
